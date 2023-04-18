@@ -2,25 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: > 
+  Postdoctoral Researcher, <a href='https://ece.osu.edu/'>Dept. of Electrical and Computer Engineering</a>, <a href='https://www.osu.edu/'>The Ohio State University</a>.
+  
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: portrait.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: # >
+    # <p>Dreese Laboratories,</p>
+    # <p>The Ohio State Univ.</p>
+    # <p>luo.1457 [at] osu.edu</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+#### Contact
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Email**: luo.1457 [at] osu.edu  
+**Office**: Dreese Laboratories, The Ohio State University, Columbus, Ohio
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+#### About Me
+
+I am currently a postdoctoral researcher in the [Dept. of Electrical and Computer Engineering](https://ece.osu.edu/) at [The Ohio State University](https://www.osu.edu/) (OSU), advised by [Prof. Ness B. Shroff](http://newslab.ece.ohio-state.edu/home/) and [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/). Prior to joining OSU, I received my Ph.D. degree from the [Dept. of Computer Science](https://www.cs.hku.hk/) at the [University of Hong Kong](https://www.hku.hk/), advised by [Prof. Chuan Wu](https://i.cs.hku.hk/~cwu/index.html), and my B.E. degree from the [School of Computer Science](https://cs.whu.edu.cn/) at [Wuhan University](https://www.whu.edu.cn/).
+
+#### Research Interest
+
+My research interests mainly focus on optimizing distributed systems. My research primarily concentrates on designing efficient resource scheduling algorithms for various distributed systems. Recently, I have been working on the analysis and optimization of large-scale distributed machine learning systems.
