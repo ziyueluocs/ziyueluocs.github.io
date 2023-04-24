@@ -32,4 +32,4 @@ I am currently a postdoctoral researcher in the [Dept. of Electrical and Compute
 
 #### Research Interest
 
-My research interests mainly focus on optimizing distributed systems. My research primarily concentrates on designing efficient resource scheduling algorithms for various distributed systems. Recently, I have been working on the analysis and optimization of large-scale distributed machine learning systems.
+My research interests mainly focus on optimizing distributed systems. My research primarily concentrates on designing efficient resource scheduling algorithms for various distributed systems. Recently, I have been working on the analysis and optimization of distributed machine learning systems.
