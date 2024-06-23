@@ -28,7 +28,7 @@ social: true  # includes social icons at the bottom of the page
 
 #### About Me
 
-I am currently a postdoctoral researcher in the [Dept. of Electrical and Computer Engineering](https://ece.osu.edu/) at [The Ohio State University](https://www.osu.edu/) (OSU), advised by [Prof. Ness B. Shroff](http://newslab.ece.ohio-state.edu/home/) and [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/). Prior to joining OSU, I received my Ph.D. degree from the [Dept. of Computer Science](https://www.cs.hku.hk/) at the [University of Hong Kong](https://www.hku.hk/), advised by [Prof. Chuan Wu](https://i.cs.hku.hk/~cwu/index.html), and my B.E. degree from the [School of Computer Science](https://cs.whu.edu.cn/) at [Wuhan University](https://www.whu.edu.cn/).
+I am currently a postdoctoral researcher in the [Dept. of Electrical and Computer Engineering](https://ece.osu.edu/) at [The Ohio State University](https://www.osu.edu/) (OSU), advised by [Prof. Ness B. Shroff](https://cse.osu.edu/people/shroff.11) and [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/). Prior to joining OSU, I received my Ph.D. degree from the [Dept. of Computer Science](https://www.cs.hku.hk/) at the [University of Hong Kong](https://www.hku.hk/), advised by [Prof. Chuan Wu](https://i.cs.hku.hk/~cwu/index.html), and my B.E. degree from the [School of Computer Science](https://cs.whu.edu.cn/) at [Wuhan University](https://www.whu.edu.cn/).
 
 #### Research Interest
 
