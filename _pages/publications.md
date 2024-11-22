@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 
-Ziyue Luo, Yixin Bao, Chuan Wu. "Optimizing Task Placement and Online Scheduling for Distributed GNN Training Acceleration in Heterogeneous Systems," to appear in IEEE/ACM Transactions on Networking.
+Ziyue Luo, Yixin Bao, Chuan Wu. "Optimizing Task Placement and Online Scheduling for Distributed GNN Training Acceleration in Heterogeneous Systems," in IEEE/ACM Transactions on Networking, vol. 32, N0. 5, pp. 3715 - 3729, October 2024.
 
 Ye Tian, Zhen Jia, Ziyue Luo, Yida Wang, Chuan Wu. "DiffusionPipe: Training Large Diffusion Models with Efficient Pipelines," in the Seventh Conference on Machine Learning and Systems (MLSys), Santa Clara, USA, May 13 - 16, 2024.
 
