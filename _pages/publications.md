@@ -8,7 +8,11 @@ nav: true
 nav_order: 1
 ---
 
-Ziyue Luo, Jia Liu, Myungjin Lee, Ness B. Shroff. "[Prediction-Assisted Online Distributed Deep Learning Workload Scheduling in GPU Clusters](https://arxiv.org/pdf/2501.05563)," to appear in IEEE INFOCOM, London, United Kingdom, May 19-22, 2025.
+Zhiyao Zhang, Myeung Suk Oh, FNU Hairi, Ziyue Luo, Alvaro Velasquez, and Jia Liu. "Finite-Time Global Optimality Convergence in Deep Neural Actor-Critic Methods for Decentralized Multi-Agent Reinforcement Learning," to appear in ICML, Vancouver, Canada, Jul. 2025
+
+Jun Liu, Bingqian Du, Ziyue Luo, Sitian Lu, Qiankun Zhang, Hai Jin. "PipeTGL: (Near) Zero Bubble Memory-based Temporal Graph Neural Network Training via Pipeline Optimization," in Proceedings of the VLDB Endowment, vol. 18, no. 8, pp. 2722-2734, 2025.
+
+Ziyue Luo, Jia Liu, Myungjin Lee, Ness B. Shroff. "[Prediction-Assisted Online Distributed Deep Learning Workload Scheduling in GPU Clusters](https://arxiv.org/pdf/2501.05563)," in IEEE INFOCOM, London, United Kingdom, May 19-22, 2025.
 
 Ziyue Luo, Yixin Bao, Chuan Wu. "Optimizing Task Placement and Online Scheduling for Distributed GNN Training Acceleration in Heterogeneous Systems," in IEEE/ACM Transactions on Networking, vol. 32, no. 5, pp. 3715-3729, October 2024.
 
