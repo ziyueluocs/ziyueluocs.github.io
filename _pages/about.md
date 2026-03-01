@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: > 
-  Postdoctoral Researcher, <a href='https://ece.osu.edu/'>Dept. of Electrical and Computer Engineering</a>, <a href='https://www.osu.edu/'>The Ohio State University</a>.
+  Research Scientist, <a href='https://www.osu.edu/'>The Ohio State University</a>.
   
 
 profile:
