@@ -8,11 +8,15 @@ nav: true
 nav_order: 1
 ---
 
-Zhiyao Zhang, Myeung Suk Oh, FNU Hairi, Ziyue Luo, Alvaro Velasquez, and Jia Liu. "Finite-Time Global Optimality Convergence in Deep Neural Actor-Critic Methods for Decentralized Multi-Agent Reinforcement Learning," to appear in ICML, Vancouver, Canada, Jul. 2025
+Ziyue Luo, Jiaxuan Cai, Cedric Le Denmat, Srijith Nair, Fatemeh Nourzad, Rohith Krishnan Sudha, Qinhang Wu, Jifan Zhang, Sungjae Lee, Zhe Li, Peiwen Qiu, Siddharth Shah, Rishabh Sharma, Sundararajan Srinivasan, Yinglun Xia, Xue Zheng, Zidong Liu, Bicheng Ying, Kaushik Chowdhury, Gauri Joshi, Yingbin Liang, Robert Nowak, Srinivasan Parthasarathy, Saurav Prakash, Balaraman Ravindran, Sanjay Shakkottai, Ness B. Shroff, Haibo Yang, Aylin Yener, Jia Liu. "Toward WAN-Aware LLM Training Across Heterogeneous, Geo-Distributed Sites," in Proc. of the 3rd Workshop on Networks for AI Computing (NAIC), co-located with ACM SIGCOMM 2026, Denver, CO, USA, August 17, 2026, to appear.
 
 Jun Liu, Bingqian Du, Ziyue Luo, Sitian Lu, Qiankun Zhang, Hai Jin. "PipeTGL: (Near) Zero Bubble Memory-based Temporal Graph Neural Network Training via Pipeline Optimization," in Proceedings of the VLDB Endowment, vol. 18, no. 8, pp. 2722-2734, 2025.
 
-Ziyue Luo, Jia Liu, Myungjin Lee, Ness B. Shroff. "[Prediction-Assisted Online Distributed Deep Learning Workload Scheduling in GPU Clusters](https://arxiv.org/pdf/2501.05563)," in IEEE INFOCOM, London, United Kingdom, May 19-22, 2025.
+Jifan Zhang, Ziyue Luo, Jia Liu, Ness B. Shroff, Robert D. Nowak. "SIEVE: A Scalable and General Purpose Data Filtering System for Large Language Models," in Proc. of ICML 2025 Workshop on DataWorld: Unifying Data Curation Frameworks Across Domains, Vancouver, Canada, July 19, 2025.
+
+Zhiyao Zhang, Myeung Suk Oh, FNU Hairi, Ziyue Luo, Alvaro Velasquez, and Jia Liu. "Finite-Time Global Optimality Convergence in Deep Neural Actor-Critic Methods for Decentralized Multi-Agent Reinforcement Learning," in ICML, PMLR, vol. 267, pp. 75853-75877, Vancouver, Canada, July 13-19, 2025.
+
+Ziyue Luo, Jia Liu, Myungjin Lee, Ness B. Shroff. "[Prediction-Assisted Online Distributed Deep Learning Workload Scheduling in GPU Clusters](https://arxiv.org/pdf/2501.05563)," in IEEE INFOCOM, pp. 1-10, London, United Kingdom, May 19-22, 2025.
 
 Ziyue Luo, Yixin Bao, Chuan Wu. "Optimizing Task Placement and Online Scheduling for Distributed GNN Training Acceleration in Heterogeneous Systems," in IEEE/ACM Transactions on Networking, vol. 32, no. 5, pp. 3715-3729, October 2024.
 
@@ -28,11 +32,11 @@ Ziyue Luo, Xiaodong Yi, Guoping Long, Shiqing Fan, Chuan Wu, Wei Lin. "Efficient
 
 Jingyan Jiang, Ziyue Luo, Chenghao Hu, Zhaoliang He, Zhi Wang, Shutao Xia, Chuan Wu. "Joint Model and Data Adaptation for Cloud Inference Serving," in the 42th IEEE Real-time Systems Symposuim (RTSS), Dortmund, Germany, December 7-10, 2021.
 
-Ziyue Luo, Chuan Wu. "An Online Algorithm for VNF Service Chain Scaling in Datacenters," in IEEE/ACM Transactions on Networking, vol. 28, No. 3, pp. 1061-1073, June 2020.
+Xiaodong Yi, Ziyue Luo, Chen Meng, Mengdi Wang, Guoping Long, Chuan Wu, Jun Yang, Wei Lin. "Fast Training of Deep Learning Models over Multiple GPUs," in ACM/IFIP Middleware, Delft, The Netherlands, December 7-11, 2020.
 
 Xiaodong Yi, Shiwei Zhang, Ziyue Luo, Guoping Long, Lansong Diao, Chuan Wu, Zhen Zheng, Jun Yang, Wei Lin. "Optimizing Distributed Training Deployment in Heterogeneous GPU Clusters," in ACM CoNEXT, Barcelona, Spain, December 1-4, 2020.
 
-Xiaodong Yi, Ziyue Luo, Chen Meng, Mengdi Wang, Guoping Long, Chuan Wu, Jun Yang, Wei Lin. "Fast Training of Deep Learning Models over Multiple GPUs," in ACM/IFIP Middleware, Delft, The Netherlands, December 7-11, 2020.
+Ziyue Luo, Chuan Wu. "An Online Algorithm for VNF Service Chain Scaling in Datacenters," in IEEE/ACM Transactions on Networking, vol. 28, No. 3, pp. 1061-1073, June 2020.
 
 Ziyue Luo, Chuan Wu, Zongpeng Li, Wei Zhou. "Scaling Geo-distributed Network Function Chains: A Prediction and Learning Framework," in IEEE Journal on Selected Areas in Communications (JSAC) Special issue on Network Softwarization & Enablers, vol. 37, no. 8, pp. 1838-1850, August 2019.
 
