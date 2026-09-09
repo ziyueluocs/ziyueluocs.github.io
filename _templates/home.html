@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="$description">
+  <meta name="color-scheme" content="light dark">
+  <title>$name | $university_name</title>
+  <link rel="canonical" href="$site_url/">
+  <link rel="icon" href="$favicon_url" type="image/svg+xml">
+  <link rel="stylesheet" href="$stylesheet_url">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$name | $university_name">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$site_url/">
+  <meta property="og:image" content="$site_url/assets/img/portrait.jpg">
+  <script src="$script_url" defer></script>
+</head>
+<body class="concept-a" id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="/">$name<span class="wordmark-dot" aria-hidden="true">.</span></a>
+      <div class="header-tools">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="$cv_url">CV</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" hidden>Dark</button>
+      </div>
+    </header>
+    <main id="main" class="site-main">
+      <section class="classic-intro" aria-label="$name">
+        <div class="intro-copy">
+          <div class="identity">
+            <h1>$name</h1>
+            <p class="position">$position</p>
+            <p class="affiliation">$school_name<br><a href="$university_url">$university_name</a></p>
+          </div>
+          <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p class="email-address"><strong>Email:</strong> $email_display</p>
+            <p class="office-address"><strong>Office:</strong> $office<br>$location</p>
+          </section>
+          <div class="social-links" aria-label="Academic profiles">
+            $profile_links
+            <a href="$cv_url">CV <span class="filetype">PDF</span></a>
+          </div>
+        </div>
+        <img class="portrait" src="$portrait_url" alt="Portrait of $name" width="425" height="591" fetchpriority="high">
+      </section>
+      <section id="about" class="biography" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        $biography_html
+      </section>
+      <section id="research" class="research-section" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research</h2>
+        $research_html
+      </section>
+      <section id="publications" class="publications" aria-labelledby="publications-heading">
+        <div class="section-heading">
+          <h2 id="publications-heading">Publications</h2>
+          <a class="section-link" href="$scholar_url">Google Scholar ↗</a>
+        </div>
+        $publications_html
+      </section>
+    </main>
+    <footer class="site-footer"><span>$name</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+</body>
+</html>

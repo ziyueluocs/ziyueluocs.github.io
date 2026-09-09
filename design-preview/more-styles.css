@@ -1,0 +1,374 @@
+/* Ten-choice review controls. The academic layouts remain separate studies. */
+.review-bar { position: sticky; top: 0; z-index: 20; min-height: 46px; gap: 18px; }
+.faculty-sidebar { top: 74px; }
+.review-bar nav { gap: 2px; }
+.review-bar nav a { width: 38px; padding: 0; justify-content: center; }
+.current-study { min-width: 116px; text-align: right; font-size: 11px; color: inherit; }
+.study-select { display: none; }
+.concept section[id], .concept main[id], .concept h3[id] { scroll-margin-top: 74px; }
+.study[id] { scroll-margin-top: 25px; }
+.gallery-intro { padding: 36px 0 26px; position: relative; }
+.gallery-intro h1 { font-size: clamp(28px, 3vw, 38px); }
+.start-new { display: inline-flex; align-items: center; gap: 20px; font-size: 12px; margin-top: 22px; padding-bottom: 3px; border-bottom: 1px solid #bdcfdd; }
+.study-index { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0 24px; border-top: 1px solid #dce5ec; border-bottom: 1px solid #dce5ec; padding: 13px 0; margin: 0 0 35px; }
+.study-index a { display: flex; align-items: center; gap: 10px; min-height: 35px; font-size: 11px; color: #556e82; }
+.study-index b { font-size: 11px; color: #345c7a; min-width: 12px; }
+.studies { row-gap: 43px; }
+.new-study { margin-left: auto; font-size: 9px; color: #54758f; letter-spacing: .03em; white-space: nowrap; }
+.study-letter { flex-shrink: 0; }
+.study-title h2 span { display: block; margin: 4px 0 0; font-size: 9px; letter-spacing: .025em; }
+.study-title h2 { font-size: 17px; }
+.study-caption > p { max-width: none; }
+
+/* D: a symmetrical university bulletin, with a two-column opening. */
+.concept-d .site-shell { max-width: 1040px; margin: auto; padding: 0 42px; }
+.bulletin-header { padding-top: 33px; text-align: center; }
+.institution-line { font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--blue); }
+.bulletin-header .identity { margin-top: 14px; }
+.bulletin-header .identity h1 { font-size: 52px; letter-spacing: -.03em; }
+.bulletin-header .position { font-size: 13px; margin-top: 9px; }
+.bulletin-header .affiliation { display: none; }
+.bulletin-header .header-tools { justify-content: center; margin-top: 24px; padding: 10px 0; border-top: 3px double var(--blue); border-bottom: 1px solid var(--line); }
+.concept-d .site-nav { gap: 28px; }
+.bulletin-overview { display: grid; grid-template-columns: 1.5fr 1fr; gap: 50px; padding-top: 31px; }
+.concept-d .about-section { font-size: 15px; }
+.concept-d .about-section h2 { margin-bottom: 15px; }
+.concept-d h2 { font-size: 24px; }
+.concept-d .social-links { font-size: 12px; gap: 3px 18px; margin-top: 19px; }
+.bulletin-research { border-left: 1px solid var(--line); padding-left: 34px; }
+.bulletin-research .portrait { width: 74px; height: 103px; float: right; margin: 0 0 13px 22px; }
+.bulletin-research .research-section { margin-top: 0; font-size: 14px; }
+.bulletin-research h2 { margin-bottom: 12px; }
+.concept-d .publications { margin-top: 30px; }
+.concept-d .year { font-family: var(--serif); font-size: 19px; font-weight: 400; }
+.concept-d .section-heading { padding-bottom: 12px; border-top: 3px double var(--line); padding-top: 20px; }
+.concept-d .paper h4 { font-family: var(--serif); font-size: 17px; font-weight: 600; line-height: 1.45; }
+.concept-d .year-group { grid-template-columns: 60px minmax(0, 1fr); gap: 28px; }
+
+/* E: an intentionally small, compact, almost unstyled academic calling card. */
+.concept-e .site-shell { max-width: 780px; margin: auto; padding: 0 35px; }
+.essential-header { display: flex; justify-content: space-between; gap: 30px; padding-top: 44px; align-items: flex-start; }
+.concept-e .identity h1 { font-family: var(--sans); font-size: 31px; font-weight: 600; letter-spacing: -.045em; }
+.concept-e .position { font-size: 13px; margin-top: 9px; }
+.concept-e .affiliation { font-size: 13px; }
+.concept-e .portrait { width: 70px; height: 70px; border-radius: 50%; object-position: center 20%; margin-top: 4px; }
+.concept-e .social-links { font-size: 11px; gap: 3px 17px; margin-top: 13px; }
+.essential-nav { padding: 17px 0 13px; border-bottom: 1px solid var(--line); justify-content: space-between; }
+.essential-nav .site-nav { gap: 21px; }
+.essential-nav .site-nav a { font-size: 11px; }
+.concept-e .theme-toggle { font-size: 10px; border: 0; }
+.concept-e .about-section { margin-top: 25px; font-size: 14px; }
+.concept-e .about-section h2 { margin-bottom: 10px; }
+.concept-e h2 { font-family: var(--sans); font-size: 16px; font-weight: 650; letter-spacing: -.015em; }
+.concept-e .research-section { font-size: 14px; margin-top: 24px; }
+.concept-e .research-section h2 { margin-bottom: 10px; }
+.concept-e .publications { margin-top: 28px; }
+.concept-e .section-heading { padding-bottom: 12px; }
+.concept-e .section-link { font-size: 10px; }
+.concept-e .year-group { grid-template-columns: 37px minmax(0, 1fr); gap: 14px; padding-top: 18px; }
+.concept-e .year { font-size: 11px; font-weight: 400; }
+.concept-e .paper h4 { font-size: 13px; line-height: 1.55; font-weight: 550; }
+.concept-e .paper { padding-bottom: 17px; }
+.concept-e .authors, .concept-e .coauthors, .concept-e .venue { font-size: 11px; margin-top: 4px; }
+.concept-e .contact-section { margin-top: 23px; padding-top: 20px; }
+.concept-e .site-footer { margin-top: 27px; }
+
+/* F: a warm sheet with a blue margin and a consistent serif reading voice. */
+.concept-f { background: var(--wash); }
+.concept-f .site-shell { max-width: 960px; margin: 34px auto 0; padding: 0 32px; }
+.letter-sheet { background: #fefdfa; border-left: 3px solid var(--sky); padding: 45px 65px 40px; }
+.letter-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; }
+.concept-f .identity h1 { font-size: 44px; font-style: italic; letter-spacing: -.025em; }
+.concept-f .position { font-family: var(--serif); font-size: 15px; margin-top: 12px; }
+.concept-f .affiliation { font-family: var(--serif); font-size: 15px; }
+.letter-email { display: inline-block; margin-top: 13px; font-size: 11px; }
+.concept-f .portrait { width: 83px; height: 115px; border-radius: 0; margin-top: 4px; }
+.letter-nav { justify-content: space-between; margin-top: 28px; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.letter-nav .site-nav { gap: 24px; }
+.letter-nav .site-nav a { font-size: 11px; }
+.concept-f .theme-toggle { font-size: 11px; }
+.concept-f .about-section { margin-top: 28px; }
+.concept-f .site-main { font-family: var(--serif); font-size: 17px; line-height: 1.8; }
+.concept-f .about-section h2 { margin-bottom: 13px; }
+.concept-f h2 { font-size: 22px; font-weight: 400; font-style: italic; letter-spacing: 0; color: var(--blue); }
+.concept-f .page-section { margin-top: 29px; }
+.concept-f .year-group { grid-template-columns: 40px minmax(0, 1fr); gap: 21px; padding-top: 20px; }
+.concept-f .year { font-family: var(--serif); font-size: 15px; font-weight: 400; }
+.concept-f .paper h4 { font-family: var(--serif); font-size: 16px; font-weight: 400; }
+.concept-f .authors, .concept-f .coauthors, .concept-f .venue { font-family: var(--serif); font-size: 12px; line-height: 1.65; }
+.concept-f .section-link { font-family: var(--sans); font-size: 10px; }
+.letter-profiles { border-top: 1px solid var(--line); margin-top: 29px; padding-top: 17px; }
+.letter-profiles .social-links { font-size: 11px; gap: 15px; }
+.concept-f .site-footer { margin-top: 0; border: 0; padding: 19px 0 23px; }
+[data-theme='dark'] .letter-sheet { background: var(--paper); }
+
+/* G: explicit typographic alignment and a numbered, asymmetric content grid. */
+.concept-g .site-shell { max-width: 1180px; margin: auto; padding: 0 42px; }
+.grid-header { padding: 23px 0 27px; }
+.grid-header-line { display: flex; gap: 26px; justify-content: space-between; align-items: center; }
+.grid-header-line > p { font-size: 11px; }
+.grid-header-line > p span { color: var(--blue); margin: 0 9px; }
+.grid-header-line .site-nav { gap: 17px; }
+.grid-header-line .site-nav a { font-size: 11px; }
+.grid-header-line .theme-toggle { font-size: 10px; }
+.grid-identity { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin: 28px 0 12px; padding-bottom: 25px; border-bottom: 2px solid var(--blue); }
+.concept-g .identity h1 { font-family: var(--sans); font-size: 64px; letter-spacing: -.065em; font-weight: 600; }
+.grid-identity .position, .grid-identity .affiliation { display: none; }
+.concept-g .portrait { width: 72px; height: 100px; border-radius: 0; }
+.concept-g .social-links { gap: 25px; font-size: 11px; }
+.concept-g .about-section, .concept-g .page-section { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 0 36px; border-top: 1px solid var(--line); padding-top: 27px; margin-top: 0; margin-bottom: 26px; font-size: 15px; }
+.concept-g .about-section p { grid-column: 2; }
+.concept-g h2 { font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: 0; }
+.concept-g h2::before { display: block; font-family: var(--sans); font-size: 10px; font-weight: 400; color: var(--blue); letter-spacing: .08em; margin-bottom: 9px; }
+.concept-g #about-heading::before { content: '01'; }
+.concept-g #research-heading::before { content: '02'; }
+.concept-g #publications-heading::before { content: '03'; }
+.concept-g #contact-heading::before { content: '04'; }
+.concept-g .section-heading { display: block; border: 0; padding: 0; }
+.concept-g .section-link { display: inline-block; font-size: 10px; margin-top: 15px; }
+.concept-g .year-group { grid-template-columns: 44px minmax(0, 1fr); gap: 23px; padding-top: 0; }
+.concept-g .year-group + .year-group { border-top: 1px solid var(--line); padding-top: 23px; }
+.concept-g .year { font-size: 11px; }
+.concept-g .paper { padding-bottom: 23px; }
+.concept-g .site-footer { margin-top: 30px; }
+
+/* H: publication-first, with citation columns and a compact profile to the right. */
+.concept-h .site-shell { max-width: 1400px; margin: auto; padding: 0 40px; }
+.index-header { display: flex; justify-content: space-between; gap: 35px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--line); }
+.index-identity { display: flex; gap: 19px; align-items: center; }
+.concept-h .portrait { width: 51px; height: 71px; border-radius: 2px; }
+.concept-h .identity h1 { font-family: var(--sans); font-size: 28px; font-weight: 600; letter-spacing: -.04em; }
+.concept-h .position, .concept-h .affiliation { font-size: 11px; margin-top: 2px; }
+.concept-h .site-nav { gap: 20px; }
+.concept-h .site-nav a { font-size: 11px; }
+.index-layout { display: grid; grid-template-columns: minmax(0, 1fr) 246px; gap: 38px; padding-top: 28px; align-items: start; }
+.concept-h .publications { margin-top: 0; }
+.concept-h .publications h2 { font-family: var(--sans); font-size: 22px; font-weight: 500; }
+.concept-h .section-heading { border-bottom: 2px solid var(--sky); padding-bottom: 14px; }
+.concept-h .section-link { font-size: 10px; }
+.concept-h .year-group { grid-template-columns: 36px minmax(0, 1fr); gap: 15px; padding-top: 20px; }
+.concept-h .year { font-size: 11px; }
+.index-paper { display: grid; grid-template-columns: minmax(0, 1fr) 164px; gap: 6px 20px; padding-bottom: 18px; border-bottom: 1px solid var(--line); margin-bottom: 18px; }
+.index-paper h4 { grid-column: 1; font-size: 13px; }
+.index-paper-main { min-width: 0; }
+.index-paper .authors, .index-paper .coauthors { font-size: 10px; margin-top: 6px; }
+.index-paper .venue { grid-column: 2; border-left: 1px solid var(--line); padding-left: 14px; font-size: 10px; margin-top: 1px; }
+.index-paper .expand-label { display: none; }
+.index-profile { padding: 21px; background: var(--wash); border-top: 3px solid var(--sky); font-size: 12px; }
+.index-profile h2 { font-family: var(--sans); font-size: 13px; font-weight: 600; letter-spacing: 0; margin-bottom: 13px; }
+.index-profile .page-section { margin-top: 24px; }
+.index-profile .social-links { font-size: 10px; gap: 2px 14px; margin-top: 22px; padding-top: 10px; border-top: 1px solid var(--line); }
+.index-profile .contact-section { padding-top: 18px; margin-top: 18px; }
+.index-profile .email-address, .index-profile .contact-section p { font-size: 11px; }
+.concept-h .site-footer { margin-top: 21px; }
+
+/* I: a chronological publication record connected by one pale blue line. */
+.concept-i .site-shell { max-width: 1060px; padding: 0 40px; margin: auto; }
+.chronicle-intro { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 62px; padding-top: 42px; }
+.concept-i .identity h1 { font-size: 43px; }
+.concept-i .position, .concept-i .affiliation { font-size: 13px; }
+.concept-i .portrait { width: 79px; height: 110px; margin-top: 20px; }
+.concept-i .social-links { font-size: 11px; gap: 2px 16px; margin-top: 15px; }
+.chronicle-overview { font-size: 15px; }
+.chronicle-overview h2 { font-family: var(--sans); font-size: 12px; font-weight: 600; letter-spacing: 0; margin-bottom: 14px; }
+.chronicle-overview .research-section { margin-top: 25px; }
+.concept-i .publications { margin-top: 38px; }
+.concept-i .section-heading { border-bottom: 0; padding-bottom: 6px; }
+.concept-i .year-group { grid-template-columns: 72px minmax(0, 1fr); gap: 26px; position: relative; padding-top: 0; }
+.concept-i .year-group::before { content: ''; position: absolute; top: 10px; left: 94.5px; width: 8px; height: 8px; border-radius: 50%; background: var(--sky); border: 2px solid var(--paper); z-index: 1; }
+.concept-i .year { font-family: var(--serif); font-size: 24px; line-height: 1.3; font-weight: 400; }
+.concept-i .paper-list { border-left: 1px solid var(--sky); padding-left: 27px; padding-top: 3px; }
+.concept-i .paper { padding-bottom: 30px; }
+.concept-i .year-group:last-child .paper-list { border-left-color: transparent; }
+.concept-i .publications > .section-content { padding-top: 20px; }
+.concept-i .contact-section { margin-top: 17px; }
+
+/* J: a centered, personable profile followed by an unhurried reading column. */
+.concept-j .site-shell { max-width: 830px; margin: auto; padding: 0 38px; }
+.portrait-header { padding: 19px 0; border-bottom: 1px solid var(--line); }
+.portrait-header .header-tools { justify-content: center; }
+.portrait-header .site-nav { gap: 28px; }
+.portrait-header .site-nav a { font-size: 12px; }
+.portrait-header .theme-toggle { font-size: 11px; }
+.portrait-identity { text-align: center; padding: 29px 0 30px; }
+.concept-j .portrait { width: 94px; height: 94px; border-radius: 50%; object-position: center 20%; margin: 0 auto 17px; }
+.concept-j .identity h1 { font-size: 38px; letter-spacing: -.025em; color: var(--blue); }
+.concept-j .position { margin-top: 9px; font-size: 13px; }
+.concept-j .affiliation { font-size: 13px; }
+.concept-j .social-links { justify-content: center; font-size: 11px; gap: 20px; margin-top: 12px; }
+.portrait-identity::after { content: ''; display: block; width: 45px; height: 2px; margin: 27px auto 0; background: var(--sky); }
+.concept-j .about-section, .concept-j .research-section { font-size: 15px; }
+.concept-j h2 { font-size: 23px; text-align: center; }
+.concept-j .about-section h2 { margin-bottom: 16px; }
+.concept-j .research-section { margin-top: 28px; }
+.concept-j .publications { margin-top: 32px; }
+.concept-j .section-heading { position: relative; justify-content: center; padding-bottom: 18px; }
+.concept-j .section-link { position: absolute; right: 0; bottom: 22px; font-size: 10px; }
+.concept-j .year-group { grid-template-columns: 43px minmax(0, 1fr); gap: 20px; padding-top: 21px; }
+.concept-j .year { font-size: 11px; font-weight: 400; }
+.concept-j .paper h4 { font-size: 14px; font-weight: 500; }
+.concept-j .authors, .concept-j .coauthors, .concept-j .venue { font-size: 11px; }
+.concept-j .contact-section { text-align: center; margin-top: 25px; }
+.concept-j .contact-section h2 { margin-bottom: 13px; }
+.concept-j .site-footer { margin-top: 34px; }
+
+/* The academic identity and all content remain usable at intermediate widths. */
+@media (max-width: 1150px) {
+  .concept-g .grid-header-line { align-items: flex-start; flex-direction: column; gap: 10px; }
+  .index-layout { gap: 27px; grid-template-columns: minmax(0, 1fr) 223px; }
+}
+@media (max-width: 1000px) {
+  .index-paper { display: block; }
+  .index-paper .authors, .index-paper .coauthors { margin-top: 5px; }
+  .index-paper .venue { border: 0; padding: 0; margin-top: 5px; }
+}
+@media (max-width: 850px) {
+  .review-bar { padding: 0 20px; gap: 13px; }
+  .review-bar nav a { width: 31px; }
+  .current-study { min-width: 98px; font-size: 10px; }
+  .study-index { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0 8px; }
+  .study-index a { font-size: 10px; gap: 6px; }
+  .concept-d .site-shell, .concept-g .site-shell, .concept-i .site-shell { padding: 0 28px; }
+  .bulletin-overview { gap: 28px; grid-template-columns: 1.3fr 1fr; }
+  .bulletin-research { padding-left: 25px; }
+  .bulletin-research .portrait { float: none; margin: 0 0 17px; }
+  .letter-sheet { padding: 34px 38px; }
+  .concept-g .about-section, .concept-g .page-section { grid-template-columns: 110px minmax(0, 1fr); gap: 0 27px; }
+  .index-header { flex-wrap: wrap; gap: 17px; }
+  .index-header .header-tools { flex-basis: 100%; justify-content: space-between; }
+  .chronicle-intro { grid-template-columns: 195px minmax(0, 1fr); gap: 36px; }
+  .chronicle-identity .identity h1 { font-size: 37px; }
+}
+@media (max-width: 700px) {
+  .review-bar { gap: 13px; padding: 0 17px; }
+  .current-study { display: none; }
+  .review-bar nav { display: flex; min-width: 0; overflow-x: auto; scrollbar-width: thin; }
+  .review-bar nav a { flex: 0 0 31px; }
+  .preview-interactive .review-bar nav { display: none; }
+  .review-bar .back-to-studies { font-size: 11px; }
+  .preview-interactive .study-select { display: block; font: inherit; font-size: 12px; min-height: 36px; max-width: 195px; flex: 1; margin: 5px 0; background: #fff; color: #355f7f; border: 1px solid #d1dfe9; border-radius: 3px; padding: 4px 10px; }
+  .study-select:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+  [data-theme='dark'] .study-select { background: #243340; color: #d6e7f3; border-color: #526c81; }
+  .index-layout { display: block; }
+  .index-profile { margin-top: 24px; font-size: 14px; padding: 24px; }
+  .index-profile .social-links { font-size: 12px; }
+  .index-profile .contact-section p, .index-profile .email-address { font-size: 13px; }
+}
+@media (max-width: 650px) {
+  .gallery-intro { padding: 28px 0 24px; }
+  .gallery-intro h1 { font-size: 28px; }
+  .start-new { font-size: 11px; margin-top: 19px; }
+  .study-index { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 10px 0; margin-bottom: 27px; }
+  .study-index a { min-height: 34px; font-size: 11px; gap: 10px; }
+  .new-study { font-size: 10px; }
+  .studies { row-gap: 33px; }
+  .concept-d .site-shell, .concept-g .site-shell, .concept-i .site-shell { padding: 0 22px; }
+  .bulletin-header { padding-top: 26px; }
+  .institution-line { font-size: 8px; letter-spacing: .12em; }
+  .bulletin-header .identity h1 { font-size: 41px; }
+  .bulletin-header .header-tools { margin-top: 21px; gap: 14px; justify-content: space-between; }
+  .concept-d .site-nav { gap: 14px; }
+  .concept-d .site-nav a { font-size: 11px; }
+  .bulletin-overview { display: block; padding-top: 25px; }
+  .concept-d .about-section { font-size: 14px; }
+  .bulletin-research { padding: 23px 0 0; margin-top: 20px; border-left: 0; border-top: 1px solid var(--line); min-height: 130px; }
+  .bulletin-research .portrait { float: right; width: 66px; height: 92px; margin: 0 0 10px 20px; }
+  .concept-d .research-section { font-size: 14px; }
+  .concept-d .publications { margin-top: 23px; }
+  .concept-d .paper h4 { font-size: 15px; }
+  .concept-d .year-group { grid-template-columns: 38px minmax(0, 1fr); gap: 15px; }
+  .concept-d .year { font-size: 16px; }
+  .concept-e .site-shell { padding: 0 22px; }
+  .essential-header { padding-top: 28px; gap: 18px; }
+  .concept-e .identity h1 { font-size: 28px; }
+  .concept-e .portrait { width: 57px; height: 57px; flex-shrink: 0; }
+  .concept-e .position, .concept-e .affiliation { font-size: 12px; }
+  .concept-e .social-links { gap: 2px 15px; font-size: 10px; }
+  .essential-nav { gap: 12px; padding-top: 12px; }
+  .essential-nav .site-nav { gap: 15px; }
+  .essential-nav .site-nav a { font-size: 10px; }
+  .concept-e .about-section { margin-top: 20px; }
+  .concept-e .paper h4 { font-size: 13px; }
+  .concept-e .year-group { grid-template-columns: 33px minmax(0, 1fr); gap: 12px; }
+  .concept-f .site-shell { margin-top: 18px; padding: 0 12px; }
+  .letter-sheet { padding: 25px 21px; border-left-width: 2px; }
+  .letter-header { gap: 15px; }
+  .concept-f .identity h1 { font-size: 34px; }
+  .concept-f .portrait { width: 59px; height: 82px; flex-shrink: 0; }
+  .concept-f .position, .concept-f .affiliation { font-size: 13px; }
+  .letter-email { font-size: 10px; }
+  .letter-nav { margin-top: 21px; gap: 10px; }
+  .letter-nav .site-nav { gap: 13px; }
+  .letter-nav .site-nav a, .concept-f .theme-toggle { font-size: 10px; }
+  .concept-f .site-main { font-size: 16px; line-height: 1.8; }
+  .concept-f .about-section { margin-top: 23px; }
+  .concept-f .year-group { grid-template-columns: 31px minmax(0, 1fr); gap: 13px; }
+  .concept-f .paper h4 { font-size: 15px; }
+  .concept-f .authors, .concept-f .coauthors, .concept-f .venue { font-size: 11px; }
+  .letter-profiles .social-links { font-size: 10px; gap: 10px; }
+  .grid-header { padding: 19px 0 21px; }
+  .grid-header-line > p { font-size: 10px; }
+  .grid-header-line > p span { margin: 0 5px; }
+  .grid-header-line .header-tools { justify-content: space-between; width: 100%; }
+  .grid-header-line .site-nav { gap: 13px; }
+  .grid-header-line .site-nav a { font-size: 10px; }
+  .grid-identity { margin-top: 18px; padding-bottom: 18px; gap: 14px; }
+  .concept-g .identity h1 { font-size: 43px; letter-spacing: -.05em; }
+  .concept-g .portrait { width: 52px; height: 72px; flex-shrink: 0; }
+  .concept-g .social-links { font-size: 10px; gap: 14px; }
+  .concept-g .about-section, .concept-g .page-section { display: block; padding-top: 21px; margin-bottom: 23px; font-size: 14px; }
+  .concept-g h2 { margin-bottom: 13px; }
+  .concept-g h2::before { display: inline; margin-right: 12px; }
+  .concept-g .section-heading { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
+  .concept-g .section-heading h2 { margin: 0; }
+  .concept-g .section-link { margin: 0; }
+  .concept-g .year-group { grid-template-columns: 32px minmax(0, 1fr); gap: 15px; }
+  .concept-h .site-shell { padding: 0 21px; }
+  .index-header { padding: 21px 0 15px; }
+  .index-identity { gap: 16px; }
+  .concept-h .identity h1 { font-size: 26px; }
+  .concept-h .portrait { width: 46px; height: 64px; }
+  .concept-h .site-nav { gap: 16px; }
+  .concept-h .site-nav a { font-size: 11px; }
+  .index-layout { padding-top: 23px; }
+  .concept-h .publications h2 { font-size: 21px; }
+  .index-profile { padding: 20px; }
+  .concept-h .year-group { grid-template-columns: 32px minmax(0, 1fr); gap: 14px; }
+  .index-paper h4 { font-size: 13px; }
+  .index-paper .authors, .index-paper .coauthors, .index-paper .venue { font-size: 11px; }
+  .chronicle-intro { display: block; padding-top: 29px; }
+  .chronicle-identity { display: grid; grid-template-columns: minmax(0, 1fr) 71px; gap: 16px; align-items: center; }
+  .chronicle-identity .identity h1 { font-size: 37px; }
+  .concept-i .portrait { width: 71px; height: 99px; margin: 0; }
+  .concept-i .social-links { grid-column: 1 / -1; margin: 0; font-size: 11px; gap: 16px; }
+  .chronicle-overview { font-size: 14px; margin-top: 21px; }
+  .chronicle-overview .research-section { margin-top: 24px; }
+  .concept-i .publications { margin-top: 30px; }
+  .concept-i .year-group { grid-template-columns: 43px minmax(0, 1fr); gap: 16px; }
+  .concept-i .year { font-size: 18px; }
+  .concept-i .year-group::before { left: 55.5px; top: 7px; }
+  .concept-i .paper-list { padding-left: 17px; padding-top: 0; }
+  .concept-i .paper { padding-bottom: 25px; }
+  .concept-i .paper h4 { font-size: 13px; }
+  .concept-j .site-shell { padding: 0 23px; }
+  .portrait-header { padding: 13px 0; }
+  .portrait-header .site-nav { gap: 16px; }
+  .portrait-header .site-nav a { font-size: 11px; }
+  .portrait-header .header-tools { gap: 13px; justify-content: space-between; }
+  .portrait-identity { padding-top: 25px; padding-bottom: 26px; }
+  .concept-j .portrait { width: 81px; height: 81px; }
+  .concept-j .identity h1 { font-size: 35px; }
+  .concept-j .social-links { gap: 16px; font-size: 10px; }
+  .concept-j .about-section, .concept-j .research-section { font-size: 14px; }
+  .concept-j .section-heading { justify-content: space-between; }
+  .concept-j .section-link { position: static; }
+  .concept-j .year-group { grid-template-columns: 33px minmax(0, 1fr); gap: 16px; }
+  .concept-j .paper h4 { font-size: 13px; }
+}
+@media print {
+  .review-bar { display: none; }
+  .concept-f { background: white; }
+  .letter-sheet { border-left: 0; padding: 0; }
+  .index-layout { display: block; }
+  .index-profile { background: none; }
+}

@@ -3,7 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: > 
-  Research Scientist, <a href='https://www.osu.edu/'>The Ohio State University</a>.
+  Professor, School of Cyber Science and Engineering,
+  <a href='https://www.whu.edu.cn/'>Wuhan University</a>.
   
 
 profile:
@@ -11,9 +12,8 @@ profile:
   image: portrait.jpg
   image_circular: false # crops the image to make it circular
   address: # >
-    # <p>Dreese Laboratories,</p>
-    # <p>The Ohio State Univ.</p>
-    # <p>luo.1457 [at] osu.edu</p>
+    # <p>Room C509,</p>
+    # <p>Wuhan University</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -23,12 +23,13 @@ social: true  # includes social icons at the bottom of the page
 
 #### Contact
 
-**Email**: luo.1457 [at] osu.edu  
-**Office**: Dreese Laboratories, The Ohio State University, Columbus, Ohio
+**Email**: luozywh [at] outlook.com<br>
+**Office**: Room C509, School of Cyber Science and Engineering<br>
+Wuhan University, Wuhan, China
 
 #### About Me
 
-I am currently a research scientist at [The Ohio State University](https://www.osu.edu/) (OSU), working by [Prof. Ness B. Shroff](https://cse.osu.edu/people/shroff.11) and [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/). Prior to joining OSU, I received my Ph.D. degree from the [Dept. of Computer Science](https://www.cs.hku.hk/) at the [University of Hong Kong](https://www.hku.hk/), advised by [Prof. Chuan Wu](https://i.cs.hku.hk/~cwu/index.html), and my B.E. degree from the [School of Computer Science](https://cs.whu.edu.cn/) at [Wuhan University](https://www.whu.edu.cn/).
+I am a professor in the School of Cyber Science and Engineering at [Wuhan University](https://www.whu.edu.cn/). Previously, I was a postdoctoral researcher and then a research scientist at [The Ohio State University](https://www.osu.edu/) (OSU), working with [Prof. Ness B. Shroff](https://cse.osu.edu/people/shroff.11) and [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/). Prior to joining OSU, I received my Ph.D. degree from the [Dept. of Computer Science](https://www.cs.hku.hk/) at the [University of Hong Kong](https://www.hku.hk/), advised by [Prof. Chuan Wu](https://i.cs.hku.hk/~cwu/index.html), and my B.E. degree from the [School of Computer Science](https://cs.whu.edu.cn/) at [Wuhan University](https://www.whu.edu.cn/), advised by [Prof. Zongpeng Li](https://www.insc.tsinghua.edu.cn/info/1157/4007.htm).
 
 #### Research Interest
 

@@ -1,0 +1,33 @@
+{
+  "name": "Ziyue Luo",
+  "position": "Professor",
+  "school": {
+    "name": "School of Cyber Science and Engineering"
+  },
+  "university": {
+    "name": "Wuhan University",
+    "url": "https://www.whu.edu.cn/"
+  },
+  "email_display": "luozywh [at] outlook.com",
+  "office": "Room C509, School of Cyber Science and Engineering",
+  "location": "Wuhan University, Wuhan, China",
+  "biography_html": "<p>I am a professor in the School of Cyber Science and Engineering at <a href=\"https://www.whu.edu.cn/\">Wuhan University</a>. Previously, I was a postdoctoral researcher and then a research scientist at <a href=\"https://www.osu.edu/\">The Ohio State University</a>, working with <a href=\"https://cse.osu.edu/people/shroff.11\">Ness B. Shroff</a> and <a href=\"https://kevinliu-osu.github.io/\">Jia (Kevin) Liu</a>.</p>\n<p>I received my Ph.D. in Computer Science from <a href=\"https://www.hku.hk/\">The University of Hong Kong</a>, advised by <a href=\"https://i.cs.hku.hk/~cwu/index.html\">Chuan Wu</a>, and my B.E. from <a href=\"https://www.whu.edu.cn/\">Wuhan University</a>, advised by <a href=\"https://www.insc.tsinghua.edu.cn/info/1157/4007.htm\">Zongpeng Li</a>.</p>",
+  "research_html": "<p>My research focuses on optimizing distributed systems, with an emphasis on efficient resource scheduling. Recently, I have been working on the analysis and optimization of distributed machine learning systems.</p>",
+  "scholar_url": "https://scholar.google.com/citations?user=ZEpJnx0AAAAJ",
+  "profiles": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=ZEpJnx0AAAAJ"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-1253-8137"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ziyue-luo-93b58914b"
+    }
+  ],
+  "site_url": "https://ziyueluocs.github.io",
+  "description": "Ziyue Luo, Professor in the School of Cyber Science and Engineering at Wuhan University. Research in distributed systems, resource scheduling, and distributed machine learning."
+}
