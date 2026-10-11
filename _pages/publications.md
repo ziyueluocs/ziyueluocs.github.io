@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 
-Ziyue Luo, Jiaxuan Cai, Cedric Le Denmat, Srijith Nair, Fatemeh Nourzad, Rohith Krishnan Sudha, Qinhang Wu, Jifan Zhang, Sungjae Lee, Zhe Li, Peiwen Qiu, Siddharth Shah, Rishabh Sharma, Sundararajan Srinivasan, Yinglun Xia, Xue Zheng, Zidong Liu, Bicheng Ying, Kaushik Chowdhury, Gauri Joshi, Yingbin Liang, Robert Nowak, Srinivasan Parthasarathy, Saurav Prakash, Balaraman Ravindran, Sanjay Shakkottai, Ness B. Shroff, Haibo Yang, Aylin Yener, Jia Liu. "Toward WAN-Aware LLM Training Across Heterogeneous, Geo-Distributed Sites," in Proc. of the 3rd Workshop on Networks for AI Computing (NAIC), co-located with ACM SIGCOMM 2026, Denver, CO, USA, August 17, 2026, to appear.
+Ziyue Luo, Jiaxuan Cai, Cedric Le Denmat, Srijith Nair, Fatemeh Nourzad, Rohith Krishnan Sudha, Qinhang Wu, Jifan Zhang, Sungjae Lee, Zhe Li, Peiwen Qiu, Siddharth Shah, Rishabh Sharma, Sundararajan Srinivasan, Yinglun Xia, Xue Zheng, Zidong Liu, Bicheng Ying, Kaushik Chowdhury, Gauri Joshi, Yingbin Liang, Robert Nowak, Srinivasan Parthasarathy, Saurav Prakash, Balaraman Ravindran, Sanjay Shakkottai, Ness B. Shroff, Haibo Yang, Aylin Yener, Jia Liu. "[Toward WAN-Aware LLM Training Across Heterogeneous, Geo-Distributed Sites](https://doi.org/10.1145/3789240.3828748)," in Proc. of the 3rd Workshop on Networks for AI Computing (NAIC), co-located with ACM SIGCOMM 2026, pp. 2057-2059, Denver, CO, USA, August 17, 2026.
 
 Jun Liu, Bingqian Du, Ziyue Luo, Sitian Lu, Qiankun Zhang, Hai Jin. "PipeTGL: (Near) Zero Bubble Memory-based Temporal Graph Neural Network Training via Pipeline Optimization," in Proceedings of the VLDB Endowment, vol. 18, no. 8, pp. 2722-2734, 2025.
 
